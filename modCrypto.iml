@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="EclipseModuleManager">
+    <libelement value="file:///aion0/lib/libnsc.jar" />
+    <libelement value="file:///aion0/lib/modAionBase.jar" />
+    <libelement value="file:///aion0/lib/modRlp.jar" />
+    <libelement value="file:///aion0/lib/slf4j-api-1.7.25.jar" />
+    <src_description expected_position="0">
+      <src_folder value="file://$MODULE_DIR$/src" expected_position="0" />
+    </src_description>
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src_native" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/test" isTestSource="true" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="libnsc" level="project" />
+    <orderEntry type="library" name="slf4j-api" level="project" />
+    <orderEntry type="library" scope="TEST" name="junit" level="project" />
+    <orderEntry type="library" scope="TEST" name="hamcrest" level="project" />
+    <orderEntry type="library" name="truth" level="project" />
+    <orderEntry type="library" name="logback" level="project" />
+    <orderEntry type="library" name="guava" level="project" />
+    <orderEntry type="module" module-name="modAionBase" />
+    <orderEntry type="module" module-name="modRlp" />
+    <orderEntry type="module" module-name="modLogger" />
+  </component>
+</module>
