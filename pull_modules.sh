@@ -1,4 +1,8 @@
 #!/bin/bash
+if [ -z "${AION_ENV}" ]; then
+	echo "cannot find AION_ENV variable specifying AION base path"
+	exit
+fi
 
 # looks for an external variable AION_ENV
 cp -rf ${AION_ENV}/modAion/modAion.iml .
