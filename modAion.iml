@@ -16,6 +16,6 @@
     <orderEntry type="library" name="libJson" level="project" />
     <orderEntry type="library" scope="TEST" name="junit" level="project" />
     <orderEntry type="library" name="commons" level="project" />
-    <orderEntry type="module" module-name="modCrypto" />
+    <orderEntry type="library" name="modCrypto" level="project" />
   </component>
 </module>

@@ -30,8 +30,8 @@
     <orderEntry type="module" module-name="modAion" />
     <orderEntry type="module" module-name="modP2pImpl" />
     <orderEntry type="module" module-name="modApiServer" />
+    <orderEntry type="library" name="modCrypto" level="project" />
     <orderEntry type="module" module-name="modFastVM" />
-    <orderEntry type="module" module-name="modCrypto" />
     <orderEntry type="module" module-name="modPrecompiled" />
     <orderEntry type="module" module-name="modVM" />
   </component>

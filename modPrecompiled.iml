@@ -12,17 +12,17 @@
     <orderEntry type="module" module-name="modMcf" />
     <orderEntry type="module" module-name="modAionBase" />
     <orderEntry type="module" module-name="modCrypto" />
-    <orderEntry type="module" module-name="modAionImpl" />
-    <orderEntry type="module" module-name="modDbImpl" />
-    <orderEntry type="module" module-name="modVM" />
-    <orderEntry type="module" module-name="modFastVM" />
-    <orderEntry type="module" module-name="modAion" />
     <orderEntry type="library" name="slf4j-api" level="project" />
+    <orderEntry type="module" module-name="modAion" />
     <orderEntry type="library" scope="TEST" name="hamcrest" level="project" />
     <orderEntry type="library" name="guava" level="project" />
     <orderEntry type="library" name="logback" level="project" />
     <orderEntry type="library" scope="TEST" name="junit" level="project" />
+    <orderEntry type="module" module-name="modAionImpl" />
+    <orderEntry type="module" module-name="modDbImpl" />
+    <orderEntry type="module" module-name="modFastVM" />
     <orderEntry type="library" name="jsr305-3.0.2" level="project" />
     <orderEntry type="library" name="truth" level="project" />
+    <orderEntry type="module" module-name="modVM" />
   </component>
 </module>

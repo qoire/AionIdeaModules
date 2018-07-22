@@ -26,6 +26,6 @@
     <orderEntry type="library" name="libJson" level="project" />
     <orderEntry type="module" module-name="modP2p" />
     <orderEntry type="library" name="JUnitParams" level="project" />
-    <orderEntry type="module" module-name="modCrypto" />
+    <orderEntry type="library" name="modCrypto" level="project" />
   </component>
 </module>

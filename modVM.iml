@@ -10,8 +10,8 @@
     <orderEntry type="module" module-name="modAion" />
     <orderEntry type="module" module-name="modAionBase" />
     <orderEntry type="module" module-name="modMcf" />
+    <orderEntry type="library" name="commons" level="project" />
     <orderEntry type="library" name="slf4j-api" level="project" />
     <orderEntry type="library" name="logback" level="project" />
-    <orderEntry type="library" name="commons" level="project" />
   </component>
 </module>
