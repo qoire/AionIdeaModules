@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="leveldb">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/leveldb-api-0.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/leveldbjni-all-1.18.3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

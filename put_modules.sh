@@ -5,6 +5,7 @@ if [ -z "${AION_ENV}" ]; then
 fi
 
 # looks for an external variable AION_ENV
+cp -rf .idea ${AION_ENV}
 cp -rf modAion.iml ${AION_ENV}/modAion/modAion.iml
 cp -rf modAionBase.iml ${AION_ENV}/modAionBase/modAionBase.iml
 cp -rf modAionImpl.iml ${AION_ENV}/modAionImpl/modAionImpl.iml

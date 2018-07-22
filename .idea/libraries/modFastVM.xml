@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="modFastVM">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/mod/modFastVM.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

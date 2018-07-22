@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="rocksdbjni-5.11.3">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/rocksdbjni-5.11.3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

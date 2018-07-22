@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/modAion/modAion.iml" filepath="$PROJECT_DIR$/modAion/modAion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modAionBase/modAionBase.iml" filepath="$PROJECT_DIR$/modAionBase/modAionBase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modAionImpl/modAionImpl.iml" filepath="$PROJECT_DIR$/modAionImpl/modAionImpl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modApiServer/modApiServer.iml" filepath="$PROJECT_DIR$/modApiServer/modApiServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modBoot/modBoot.iml" filepath="$PROJECT_DIR$/modBoot/modBoot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modCrypto/modCrypto.iml" filepath="$PROJECT_DIR$/modCrypto/modCrypto.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modDbImpl/modDbImpl.iml" filepath="$PROJECT_DIR$/modDbImpl/modDbImpl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modEvtMgr/modEvtMgr.iml" filepath="$PROJECT_DIR$/modEvtMgr/modEvtMgr.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modEvtMgrImpl/modEvtMgrImpl.iml" filepath="$PROJECT_DIR$/modEvtMgrImpl/modEvtMgrImpl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aion_fastvm/modFastVM/modFastVM.iml" filepath="$PROJECT_DIR$/aion_fastvm/modFastVM/modFastVM.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modGui/modGui.iml" filepath="$PROJECT_DIR$/modGui/modGui.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modLogger/modLogger.iml" filepath="$PROJECT_DIR$/modLogger/modLogger.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modMcf/modMcf.iml" filepath="$PROJECT_DIR$/modMcf/modMcf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modP2p/modP2p.iml" filepath="$PROJECT_DIR$/modP2p/modP2p.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modP2pImpl/modP2pImpl.iml" filepath="$PROJECT_DIR$/modP2pImpl/modP2pImpl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modPrecompiled/modPrecompiled.iml" filepath="$PROJECT_DIR$/modPrecompiled/modPrecompiled.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modRlp/modRlp.iml" filepath="$PROJECT_DIR$/modRlp/modRlp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modTxPool/modTxPool.iml" filepath="$PROJECT_DIR$/modTxPool/modTxPool.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modTxPoolImpl/modTxPoolImpl.iml" filepath="$PROJECT_DIR$/modTxPoolImpl/modTxPoolImpl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modVM/modVM.iml" filepath="$PROJECT_DIR$/modVM/modVM.iml" />
+    </modules>
+  </component>
+</project>

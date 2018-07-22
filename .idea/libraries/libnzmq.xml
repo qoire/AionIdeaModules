@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="libnzmq">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/libnzmq.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
