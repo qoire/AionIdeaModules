@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="openjfx">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/openjfx-monocle-jdk-9+181.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

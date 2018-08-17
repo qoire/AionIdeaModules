@@ -19,8 +19,15 @@
     <orderEntry type="module" module-name="modMcf" />
     <orderEntry type="library" scope="TEST" name="hamcrest" level="project" />
     <orderEntry type="module" module-name="modAionImpl" />
-    <orderEntry type="library" name="testfx-core-4.0.13-alpha" level="project" />
     <orderEntry type="library" name="commons" level="project" />
-    <orderEntry type="library" name="richtextfx-0.9.0" level="project" />
+    <orderEntry type="library" name="testfx" level="project" />
+    <orderEntry type="library" name="openjfx" level="project" />
+    <orderEntry type="library" name="modAionApi" level="project" />
+    <orderEntry type="module" module-name="modAionBase" />
+    <orderEntry type="module" module-name="modCrypto" />
+    <orderEntry type="library" name="BIP39" level="project" />
+    <orderEntry type="library" name="zxing" level="project" />
+    <orderEntry type="library" name="richtextfx" level="project" />
+    <orderEntry type="library" name="libnsc" level="project" />
   </component>
 </module>

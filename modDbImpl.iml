@@ -35,7 +35,6 @@
     <orderEntry type="module" module-name="modAionBase" />
     <orderEntry type="module" module-name="modLogger" />
     <orderEntry type="library" name="rocksdbjni-5.11.3" level="project" />
-    <orderEntry type="library" name="lmdbjava-0.6.0" level="project" />
     <orderEntry type="library" name="commons" level="project" />
   </component>
 </module>
