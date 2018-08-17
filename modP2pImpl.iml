@@ -16,5 +16,7 @@
     <orderEntry type="module" module-name="modP2p" />
     <orderEntry type="module" module-name="modAionBase" />
     <orderEntry type="module" module-name="modLogger" />
+    <orderEntry type="library" name="jsr305-3.0.2" level="project" />
+    <orderEntry type="library" name="mockito" level="project" />
   </component>
 </module>

@@ -12,5 +12,6 @@
     <orderEntry type="library" scope="TEST" name="junit" level="project" />
     <orderEntry type="library" name="truth" level="project" />
     <orderEntry type="library" name="guava" level="project" />
+    <orderEntry type="library" name="JUnitParams-1.1.1" level="project" />
   </component>
 </module>

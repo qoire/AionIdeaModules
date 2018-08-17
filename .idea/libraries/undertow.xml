@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="undertow">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/undertow-core-2.0.10.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/xnio-api-3.3.8.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/xnio-nio-3.3.8.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jboss-logging-3.3.0.Final.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

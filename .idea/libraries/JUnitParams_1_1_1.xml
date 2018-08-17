@@ -1,7 +1,7 @@
 <component name="libraryTable">
-  <library name="truth">
+  <library name="JUnitParams-1.1.1">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/lib/truth-0.42.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/JUnitParams-1.1.1.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

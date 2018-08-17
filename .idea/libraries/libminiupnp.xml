@@ -1,13 +1,14 @@
 <component name="libraryTable">
   <library name="libminiupnp">
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/lib/libminiupnp" />
+      <root url="jar://$PROJECT_DIR$/lib/miniupnpc_linux.jar!/" />
     </CLASSES>
     <JAVADOC />
     <NATIVE>
-      <root url="file://$PROJECT_DIR$/lib/libminiupnp" />
+      <root url="file://$PROJECT_DIR$/lib" />
     </NATIVE>
-    <SOURCES />
-    <jarDirectory url="file://$PROJECT_DIR$/lib/libminiupnp" recursive="false" />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/lib/miniupnpc_linux.jar!/" />
+    </SOURCES>
   </library>
 </component>

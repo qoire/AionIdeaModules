@@ -30,5 +30,6 @@
     <orderEntry type="module" module-name="modFastVM" />
     <orderEntry type="module" module-name="modRlp" />
     <orderEntry type="library" name="modApiServer" level="project" />
+    <orderEntry type="library" name="undertow" level="project" />
   </component>
 </module>
