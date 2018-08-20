@@ -19,5 +19,7 @@
     <orderEntry type="module" module-name="modTxPool" />
     <orderEntry type="module" module-name="modTxPoolImpl" />
     <orderEntry type="module" module-name="modCrypto" />
+    <orderEntry type="module" module-name="modAionBase" />
+    <orderEntry type="module" module-name="modAion" />
   </component>
 </module>

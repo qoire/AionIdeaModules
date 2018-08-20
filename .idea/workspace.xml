@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="coldwallet:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="c5d1c7af-55ea-4de2-b7ee-8203aa642111" name="Default" comment="" />
+    <list default="true" id="c5d1c7af-55ea-4de2-b7ee-8203aa642111" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/modBoot/src/org/aion/ColdWallet.java" beforeDir="false" afterPath="$PROJECT_DIR$/modBoot/src/org/aion/ColdWallet.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/modBoot/build/" />
     <ignored path="$PROJECT_DIR$/build/" />
     <ignored path="$PROJECT_DIR$/modApiServer/build/" />
@@ -22,6 +29,7 @@
     <ignored path="$PROJECT_DIR$/modPrecompiled/build/" />
     <ignored path="$PROJECT_DIR$/modRlp/build/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,7 +62,57 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file leaf-file-name="ColdWallet.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/modBoot/src/org/aion/ColdWallet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-734">
+              <caret line="43" column="39" selection-start-line="43" selection-start-column="39" selection-end-line="43" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#4140#4141#0" expanded="true" />
+                <element signature="e#4205#4206#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AionTransaction.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modAion/src/org/aion/zero/types/AionTransaction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="430">
+              <caret line="82" column="26" lean-forward="true" selection-start-line="82" selection-start-column="26" selection-end-line="82" selection-end-column="104" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Keystore.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modMcf/src/org/aion/mcf/account/Keystore.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="438">
+              <caret line="214" column="27" selection-start-line="214" selection-start-column="27" selection-end-line="214" selection-end-column="27" />
+              <folding>
+                <element signature="e#8566#8567#0" expanded="true" />
+                <element signature="e#8632#8633#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Address.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modAionBase/src/org/aion/base/type/Address.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="430">
+              <caret line="87" column="11" selection-start-line="87" selection-start-column="11" selection-end-line="87" selection-end-column="11" />
+              <folding>
+                <element signature="e#3780#3781#0" expanded="true" />
+                <element signature="e#3820#3821#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -65,8 +123,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>initializRi</find>
-      <find>SHA3</find>
       <find>encodeInt</find>
       <find>setBundle</find>
       <find>INVALID_TRANSFER</find>
@@ -95,6 +151,8 @@
       <find>getBundle</find>
       <find>resetContext()</find>
       <find>senderAddress</find>
+      <find>improper</find>
+      <find>improperAddress</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -103,7 +161,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/aion_fastvm/modFastVM/src/org/aion/vm/ExecutionContext.java" />
         <option value="$PROJECT_DIR$/modAionImpl/test/org/aion/zero/impl/BlockchainVMPostBehaviourTest.java" />
         <option value="$PROJECT_DIR$/aion_fastvm/modFastVM/test/org/aion/fastvm/DoSUnexpectedThrowTest.java" />
         <option value="$PROJECT_DIR$/aion_fastvm/modFastVM/test/org/aion/fastvm/MultiThreadTest.java" />
@@ -154,6 +211,7 @@
         <option value="$PROJECT_DIR$/modAion/test/org/aion/types/AionTransactionIntegrationTest.java" />
         <option value="$PROJECT_DIR$/modPrecompiled/src/org/aion/precompiled/contracts/ATB/BridgeController.java" />
         <option value="$PROJECT_DIR$/modPrecompiled/test/org/aion/precompiled/contracts/ATB/BridgeTransferTest.java" />
+        <option value="$PROJECT_DIR$/modBoot/src/org/aion/ColdWallet.java" />
       </list>
     </option>
   </component>
@@ -178,9 +236,27 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
+            <path>
+              <item name="aion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="modBoot" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="modBoot" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="modBoot" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="aion" type="462c0819:PsiDirectoryNode" />
+            </path>
             <path>
               <item name="aion" type="b2602c69:ProjectViewProjectNode" />
               <item name="modGui" type="462c0819:PsiDirectoryNode" />
@@ -189,9 +265,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -199,7 +272,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534544200671" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/richtextfx-fat-0.9.0.jar!/" />
-    <property name="project.structure.last.edited" value="Facets" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -224,7 +297,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Aion">
+  <component name="RunManager" selected="Application.ColdWallet">
     <configuration name="Aion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.aion.Aion" />
       <module name="modBoot" />
@@ -235,13 +308,21 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    </configuration>
+    <configuration name="ColdWallet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.aion.ColdWallet" />
+      <module name="modBoot" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.aion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
+      <method>
         <option name="Make" enabled="true" />
       </method>
     </configuration>
@@ -253,14 +334,20 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="org.aion.types" />
       <option name="MAIN_CLASS_NAME" value="org.aion.types.AionTransactionIntegrationTest" />
       <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration name="AionTransactionTest.encodingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="modAion" />
@@ -270,33 +357,20 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="org.aion.types" />
       <option name="MAIN_CLASS_NAME" value="org.aion.types.AionTransactionTest" />
       <option name="METHOD_NAME" value="encodingTest" />
       <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AionTransactionTest.encodingTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="modAion" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.aion.types.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.aion.types" />
-      <option name="MAIN_CLASS_NAME" value="org.aion.types.AionTransactionTest" />
-      <option name="METHOD_NAME" value="encodingTest2" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration name="BridgeTransferTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="modPrecompiled" />
@@ -306,12 +380,20 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="org.aion.precompiled.contracts.ATB" />
       <option name="MAIN_CLASS_NAME" value="org.aion.precompiled.contracts.ATB.BridgeTransferTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration name="TransactionValidatorTest" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="modAionImpl" />
@@ -321,26 +403,62 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="org.aion.zero.impl.valid" />
       <option name="MAIN_CLASS_NAME" value="org.aion.zero.impl.valid.TransactionValidatorTest" />
       <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+      <method>
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
       <properties />
       <listeners />
-      <method v="2">
+      <method>
         <option name="Make" enabled="true" />
       </method>
     </configuration>
@@ -348,17 +466,17 @@
       <item itemvalue="JUnit.TransactionValidatorTest" />
       <item itemvalue="Application.Aion" />
       <item itemvalue="JUnit.AionTransactionTest.encodingTest" />
-      <item itemvalue="JUnit.AionTransactionTest.encodingTest2" />
       <item itemvalue="JUnit.AionTransactionIntegrationTest" />
       <item itemvalue="JUnit.BridgeTransferTest" />
+      <item itemvalue="Application.ColdWallet" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ColdWallet" />
         <item itemvalue="Application.Aion" />
         <item itemvalue="JUnit.BridgeTransferTest" />
         <item itemvalue="JUnit.AionTransactionIntegrationTest" />
         <item itemvalue="JUnit.AionTransactionTest.encodingTest" />
-        <item itemvalue="JUnit.AionTransactionTest.encodingTest2" />
       </list>
     </recent_temporary>
   </component>
@@ -401,6 +519,7 @@
       <workItem from="1534277349650" duration="1239000" />
       <workItem from="1534297423086" duration="1277000" />
       <workItem from="1534471954626" duration="684000" />
+      <workItem from="1534730208663" duration="9249000" />
     </task>
     <servers />
   </component>
@@ -437,40 +556,40 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="136749000" />
+    <option name="totallyTimeSpent" value="145998000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1987" y="-2" width="1853" height="1082" extended-state="6" />
+    <frame x="67" y="25" width="3773" height="2135" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21748754" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.34815618" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3557484" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39804772" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32983193" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="10" weight="0.329718" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32668066" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32668066" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.329718" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.35564435" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32967034" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Designer" order="3" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13120472" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3976024" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32977587" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.34815618" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -501,23 +620,10 @@
           <option name="timeStamp" value="70" />
         </line-breakpoint>
       </breakpoints>
+      <option name="time" value="1" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/modVM/src/org/aion/vm/ExecutionContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2682">
-          <caret line="179" selection-start-line="179" selection-end-line="179" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modPrecompiled/test/org/aion/precompiled/contracts/ATB/TokenBridgeContractTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="51" selection-start-line="51" selection-end-line="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/mod/modCrypto.jar!/org/aion/crypto/SignatureFac.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="318">
@@ -544,13 +650,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="305">
           <caret line="116" column="23" lean-forward="true" selection-start-line="116" selection-start-column="23" selection-end-line="116" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modAionBase/src/org/aion/base/type/Address.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="55" column="33" selection-start-line="55" selection-start-column="33" selection-end-line="55" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -640,13 +739,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modAion/src/org/aion/zero/types/AionTransaction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5940">
-          <caret line="378" column="18" selection-start-line="378" selection-start-column="18" selection-end-line="378" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/modAion/test/org/aion/types/AionTransactionIntegrationTest.java" />
     <entry file="file://$PROJECT_DIR$/modAion/src/org/aion/zero/types/AionTxReceipt.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -694,9 +786,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1530">
           <caret line="118" column="20" selection-start-line="118" selection-start-column="20" selection-end-line="118" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -718,11 +807,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7635">
           <caret line="599" column="19" selection-start-line="599" selection-start-column="19" selection-end-line="599" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#49832#49833#0" expanded="true" />
-            <element signature="e#49860#49861#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -730,9 +814,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
           <caret line="70" column="36" selection-start-line="70" selection-start-column="36" selection-end-line="70" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -740,9 +821,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="52" column="9" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -750,9 +828,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="31" selection-start-line="31" selection-end-line="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -760,9 +835,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="40" column="31" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -787,9 +859,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="41" column="39" selection-start-line="41" selection-start-column="39" selection-end-line="41" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -804,9 +873,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="39" column="52" selection-start-line="39" selection-start-column="52" selection-end-line="39" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -821,9 +887,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -838,9 +901,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="51" column="13" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -862,9 +922,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="40" column="47" lean-forward="true" selection-start-line="40" selection-start-column="47" selection-end-line="40" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -872,8 +929,46 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modAionBase/src/org/aion/base/type/Address.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="87" column="11" selection-start-line="87" selection-start-column="11" selection-end-line="87" selection-end-column="11" />
+          <folding>
+            <element signature="e#3780#3781#0" expanded="true" />
+            <element signature="e#3820#3821#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modMcf/src/org/aion/mcf/account/Keystore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="214" column="27" selection-start-line="214" selection-start-column="27" selection-end-line="214" selection-end-column="27" />
+          <folding>
+            <element signature="e#8566#8567#0" expanded="true" />
+            <element signature="e#8632#8633#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modAion/src/org/aion/zero/types/AionTransaction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="82" column="26" lean-forward="true" selection-start-line="82" selection-start-column="26" selection-end-line="82" selection-end-column="104" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modBoot/src/org/aion/ColdWallet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-734">
+          <caret line="43" column="39" selection-start-line="43" selection-start-column="39" selection-end-line="43" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#4140#4141#0" expanded="true" />
+            <element signature="e#4205#4206#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -884,11 +979,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>modGui</last-edited>
+          <last-edited>coldwallet:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -931,12 +1027,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>modAion</last-edited>
+          <last-edited>modBoot</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

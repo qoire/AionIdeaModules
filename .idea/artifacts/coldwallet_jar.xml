@@ -1,0 +1,67 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="coldwallet:jar">
+    <output-path>$PROJECT_DIR$/build/artifacts/coldwallet_jar</output-path>
+    <root id="archive" name="aion.jar">
+      <element id="module-output" name="modEvtMgr" />
+      <element id="module-output" name="modDbImpl" />
+      <element id="module-output" name="modAionBase" />
+      <element id="module-output" name="modLogger" />
+      <element id="module-output" name="modAion" />
+      <element id="module-output" name="modRlp" />
+      <element id="module-output" name="modMcf" />
+      <element id="module-output" name="modAionImpl" />
+      <element id="module-output" name="modEvtMgrImpl" />
+      <element id="module-output" name="modTxPool" />
+      <element id="module-output" name="modP2p" />
+      <element id="module-output" name="modP2pImpl" />
+      <element id="module-output" name="modApiServer" />
+      <element id="module-output" name="modFastVM" />
+      <element id="module-output" name="modCrypto" />
+      <element id="module-output" name="modPrecompiled" />
+      <element id="module-output" name="modVM" />
+      <element id="module-output" name="modBoot" />
+      <element id="module-output" name="modTxPoolImpl" />
+      <element id="module-output" name="modGui" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/leveldb-api-0.9.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/leveldbjni-all-1.18.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/JUnitParams-1.1.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/truth-0.42.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/logback-classic-1.2.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/logback-core-1.2.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/undertow-core-2.0.10.Final.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/xnio-api-3.3.8.Final.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/xnio-nio-3.3.8.Final.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/jboss-logging-3.3.0.Final.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/libnzmq.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/miniupnpc_linux.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/mod/modCrypto.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/richtextfx-fat-0.9.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/commons-codec-1.10.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/commons-collections4-4.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/commons-lang3-3.4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/hamcrest/hamcrest-all-1.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/hamcrest/hamcrest-core-1.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/libJson.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/core-3.3.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/junit_4/junit-4.12.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/h2-mvstore-1.4.196.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/guava-25.1-jre.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/testfx-core-4.0.13-alpha.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/testfx-junit-4.0.13-alpha.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/nanohttpd-2.3.1-with-deps.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/protobuf-java-3.5.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/slf4j-api-1.7.25.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/objenesis-2.6.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/byte-buddy-agent-1.8.17.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/byte-buddy-1.8.17.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/mockito-core-2.21.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/BIP39-0.1.9.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/libnsc.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/jsr305-3.0.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/openjfx-monocle-jdk-9+181.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/mod/modApiServer.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/aion_api/modAionApi.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/rocksdbjni-5.11.3.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
